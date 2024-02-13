@@ -5,7 +5,6 @@ const Navbar = () => {
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary px-2">
   <div className="container-fluid">
-    {/* <a className="navbar-brand" href="#">Admin Table</a> */}
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -17,14 +16,14 @@ const Navbar = () => {
         <li className="nav-item mx-2">
           <a className="nav-link" href="#">About</a>
         </li>
-        <li className="nav-item mx-2 dropdown">
-        <a className="nav-link" aria-disabled="true">Projects</a>
+        <li className="nav-item mx-5">
+        <h3 className="navbar-brand" style={{fontFamily:'cursive', fontSize: '23px', fontWeight:'bold'}}>User Dashboard</h3>
         </li>
         <li className="nav-item mx-2">
-          <a className="nav-link" aria-disabled="true">Code</a>
+          <a className="nav-link" href="#">Code</a>
         </li>
         <li className="nav-item mx-2">
-          <a className="nav-link" aria-disabled="true">Contact</a>
+          <a className="nav-link" href="#">Contact</a>
         </li>
       </ul>
     </div>
